@@ -23,7 +23,7 @@ void loop()
   vw_send(msg, sizeof(msg));
   Serial.println("Send");
   vw_wait_tx();
- delay(200);
+  delay(200);
  /* vw_wait_rx_max(1000);
   delay(200);
   if (vw_get_message(buf, &buflen))
